@@ -24,6 +24,7 @@ const movies = [
 const genres = ["Drama", "Crime", "Action", "Fantasy", "Western", "Science Fiction", "Thriller", "War", "Animation"];
 
 function App() {
+  
   const [genreFilter, setGenreFilter] = useState(null);
 
   function handleFilterClick(genre) {

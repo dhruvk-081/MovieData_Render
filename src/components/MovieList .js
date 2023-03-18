@@ -2,6 +2,7 @@ import React from "react";
 import "./MovieList.css";
 
 function MovieList({ movies }) {
+  
   return (
     <>
       <div className="table-content">

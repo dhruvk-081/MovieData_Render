@@ -8,8 +8,7 @@ th {
   color: black;
 }
 
-th,
-td {
+th,td {
   padding: 10px 20px;
   border: 1px solid;
 }

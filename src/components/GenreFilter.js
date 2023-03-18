@@ -2,7 +2,6 @@ import React from "react";
 import "./GenreFilter.css";
 
 function GenreFilter({ genres, onFilterClick }) {
-  // const { genres, onFilterClick } = props;
 
   function handleFilterClick(genre) {
     console.log(`Fitering by ${genre}`);
