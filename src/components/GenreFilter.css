@@ -1,0 +1,22 @@
+.genre-filter {
+  background-color: rgb(216, 208, 208);
+  width: 85vw;
+  padding: 10px 20px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+button {
+  margin: 10px;
+  padding: 5px 10px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+button:hover {
+  transform: scale(1.3);
+  background-color: black;
+  color: turquoise;
+}
+h2 {
+  color: black;
+}

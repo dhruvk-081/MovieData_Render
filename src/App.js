@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
-// import MovieList from "./components/MovieList ";
-// import GenreFilter from "./components/GenreFilter";
+import MovieList from "./components/MovieList ";
+import GenreFilter from "./components/GenreFilter";
 
 const movies = [
   { title: "The Shawshank Redemption", genre: "Drama", year: 1994 },
@@ -35,8 +35,8 @@ function App() {
   return (
     <div className="App">
       <h1>Top 15 Movies of All Time</h1>
-      {/* <GenreFilter genres={genres} onFilterClick={handleFilterClick} />
-      <MovieList movies={filteredMovies} /> */}
+      <GenreFilter genres={genres} onFilterClick={handleFilterClick} />
+      <MovieList movies={filteredMovies} />
     </div>
   );
 }
